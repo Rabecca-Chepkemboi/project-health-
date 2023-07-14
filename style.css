@@ -1,0 +1,215 @@
+body{
+  background-color: #ccbbc0;
+}
+nav {
+  background-color: #96f2d7;
+    text-align: center;
+    position: fixed;
+    top: 1px; 
+    left: 0;
+    width: 100%;
+    /* z-index: 999; */
+    background-color: #66d9e8;
+    color: black;
+    padding: 40px;
+    font-size: 1.5em;
+  }
+  .navigation{
+    background-color: #96f2d7;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-start;
+    align-items: center;
+    height: 0px;
+  }
+
+  nav ul li {
+    margin-right: 50px;
+    display: inline;
+    }
+
+  nav ul li a {
+    color: #0a0a0a;
+    text-decoration: none;
+    padding: 10px;
+  }
+  nav ul li a:hover{
+    background-color: #ace6ee;
+    cursor: pointer;
+  }     
+
+
+/* .....................................   */
+
+
+.home {
+  background-color: rgb(75, 173, 185);
+    width: 40em;
+    height: 20em;
+    margin-left: 8em;
+    color: #7e491e;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 4em;
+    background-image: url("/images/hospital4eb21b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.details{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  text-align: center;
+  margin-top: 5em;
+  padding-left: 14em;
+}  
+.detail1{
+  font-size: 1.2em;
+  border: solid 2px grey;
+  width: 28em;
+  height: 10em;
+  border-radius: 5px;
+  background-color: #96f2d7;
+}
+.detail1:hover{
+  background-color: rgb(189, 215, 223);
+}
+.detail2{
+  font-size: 1.2em;
+  border: solid 2px grey;
+  width: 28em;
+  height: 10em;
+  border-radius: 5px;
+  background-color: #96f2d7;
+}  
+.detail2:hover{
+  background-color: rgb(189, 215, 223);
+}
+
+
+/* .................................... */
+
+.footer {
+  background-color: #131212;
+  padding: 40px 0;
+  color: white;
+  margin-top: 5em;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fdf9f9;
+  text-decoration: none;
+}
+.footer-social ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+.footer-social li {
+  margin-right: 10px;
+}
+.footer-social a {
+  color: #fdfbfb;
+  text-decoration: none;
+}
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #fcfbfb;
+  margin-top: 4em;
+}
+/* Example social media icons (font-awesome) */
+.footer-social i {
+  font-size: 30px;
+}
+
+
+/* ..........About.......... */
+
+.about1{
+  display: flex;
+  margin-top: 10em;
+}
+div{
+  font-size: 1.2em;
+  padding-left: 6em;
+}
+.info1{
+  padding-left: 20em;
+  font-size: 1.3em;
+  margin-top: 4em;
+}
+.misvis{
+  display: flex;
+  margin-top: 12em;
+  gap: 2em;
+}
+.mission{
+  border: solid 2px black;
+  width: 40em;
+  border-radius: 5px;
+  height: 13em;
+}
+.mission:hover{
+  background-color: #ace6ee;
+}
+.vision{
+  border: solid 2px black;
+  width: 40em;
+  border-radius: 5px;
+  height: 13em;
+}
+.vision:hover{
+  background-color: #ace6ee;
+}
+h1{
+  text-align: center;
+}
+
+
+/* ......services........... */
+
+.service1{
+  display: flex;
+  margin-top: 8em;
+}
+.service3{
+  display: flex;
+}
+.service2{
+  display: flex;
+}
+.scoope{
+  width: 40%;
+}
+.infoo1{
+  padding-left: 10em;
+  font-size: 1.3em;
+  margin-top: 9em;
+}
+.infoo2{
+  margin-top: 7em;
+  padding-right: 7em;
+}
+.infoo3{
+  margin-top: 6em;
+}
